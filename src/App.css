@@ -1,9 +1,18 @@
 /* Add styling for your page here */
 
 .App {
-
+    display: flex;
+    flex-direction: row;
 }
-
+.Main {
+    width: 66%;
+    padding: 2em;
+}
+.ItemContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
 .BakeryItem {
   
 }
